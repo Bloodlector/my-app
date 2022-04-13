@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+.content-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.product-item {
+  width: 500px;
+  height: 600px;
+  background-color: rgb(55, 85, 75);
+  border: 1px black solid;
+  margin: 10px;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #4a6191;
+}
+.header-right {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  align-self: center;
+}
+.header-right{
+  padding-left: 70px;
+}
+.wrapper {
+  width: 1200px;  
+  justify-content: space-between;
+   margin-right: 50px;
+}
+.footer {
+  height: 200px;
+  background-color: #254486;
+  width: 100%;
+}
